@@ -1,0 +1,5 @@
+references/
+.pio/
+.vscode/
+.DS_Store
+*.log
