@@ -2,3 +2,7 @@
 .vscode/
 .DS_Store
 *.log
+tools/.venv/
+exports/
+__pycache__/
+*.pyc

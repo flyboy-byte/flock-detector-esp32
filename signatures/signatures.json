@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "description": "Flock Safety ALPR detection signatures",
+    "sources": [
+      "deflock.me crowdsourced device database",
+      "references/flock-you/src/main.cpp",
+      "GainSec Bluetooth surveillance research"
+    ],
+    "notes": [
+      "cc:cc:cc excluded from FS Extended Battery list — not a valid OUI",
+      "SSID patterns should be matched case-insensitively as substrings"
+    ]
+  },
+  "mac_prefixes": {
+    "flock_wifi": [
+      "70:c9:4e", "3c:91:80", "d8:f3:bc", "80:30:49",
+      "14:5a:fc", "74:4c:a1", "08:3a:88", "9c:2f:9d"
+    ],
+    "flock_ext_battery": [
+      "58:8e:81", "ec:1b:bd", "90:35:ea", "04:0d:84",
+      "f0:82:c0", "1c:34:f1", "38:5b:44", "94:34:69", "b4:e3:f9"
+    ],
+    "penguin": [
+      "cc:09:24", "ed:c7:63", "e8:ce:56", "ea:0c:ea", "d8:8f:14",
+      "f9:d9:c0", "f1:32:f9", "f6:a0:76", "e4:1c:9e", "e7:f2:43",
+      "e2:71:33", "da:91:a9", "e1:0e:15", "c8:ae:87", "f4:ed:b2",
+      "d8:bf:b5", "ee:8f:3c", "d7:2b:21", "ea:5a:98"
+    ]
+  },
+  "ssid_patterns": [
+    "flock",
+    "FS Ext Battery",
+    "Penguin",
+    "Pigvision"
+  ],
+  "ble_name_patterns": [
+    "FS Ext Battery",
+    "Flock",
+    "Penguin",
+    "Pigvision"
+  ]
+}
